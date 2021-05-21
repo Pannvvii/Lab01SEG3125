@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+	<! IMPORTANT to use a CSS file - external >
+	<link href="styles/style.css" rel="stylesheet" type="text/css">
+    <title>Questionnaire</title>
+  </head>
+  
+  <body>
+	<h1><t>Survey</t></h1>
+	<form id="myform" action="index.php" >
+	<br>
+	<br>
+	<! Choose a website to evaluate >
+	<c>Thank you for reading.</c>
+	<h2><c>Please give your opinion on the following site.</c></h2>	
+	
+	<h2><c>~~~<a href="https://www.orithegame.com/blind-forest/">Ori and the Blind Forest</a>~~~</c></h2>
+	
+	<br>
+	<br>
+	
+	<a href="https://www.orithegame.com/blind-forest/"><img src="images/orithegame.png" alt="https://www.orithegame.com/blind-forest/" width="450" height="300" border="5"></a>
+
+	
+	<div class="question">
+	<h2> <c>Personal Information </c></h2>
+	<p><c>First name: <input type="text" name="firstname"></c></p>
+	<p><c>Last name: <input type="text" name="lastname"></c></p>
+	
+		
+	</div>	
+		
+	<div class="question">
+		<h2><c> What feature impressed you the most? </c></h2>
+		<c>I like:</c><br>
+		<input type="checkbox" name="Color" value="Red"><L><c>The way the page scrolls down</c></L><br>
+		<input type="checkbox" name="Color" value="Green"><L><c>The embedded video</c></L><br>
+		<input type="checkbox" name="Color" value="Blue"><L><c>The color pallet</c></L><br>
+		
+		<br>
+		
+		<c>Does this site make you want to play the game?</c><br>
+		<select id="favorite">
+			<option value="Apples" selected="selected"><c>Yes</c></option>
+			<option value="Oranges"><c>No</c></option>
+			<option value="Bananas"><c>I didn't know the site was pushing a game.</c></option>
+		</select>
+	</div>
+	
+	<br>
+	<br>
+		
+	<c>Comments:</c><br>
+	<textarea rows="5" cols="30"></textarea>
+			
+
+			
+	<button id="submitButton" type="button" class="block">
+		<c>SUBMIT</c>
+	</button>
+	</div>
+	<p id="signature"><c>Site created by Panvi</c></p>	
+
+	</form>
+  </body>
+</html> 

@@ -1,0 +1,119 @@
+@font-face {
+    font-family: 'cup_and_talonregular';
+    src: url('cup_and_talon-webfont.woff2') format('woff2'),
+         url('cup_and_talon-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'moria_citadelregular';
+    src: url('moriacitadel-webfont.woff2') format('woff2'),
+         url('moriacitadel-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+html {
+	background-image: url(images/wood.png);
+	background-color: #cccccc;
+  
+}
+ 
+body {
+	max-width: 700px;
+	margin: auto;
+	background-image: url(images/paper.jpg);
+	background-color: #cccccc;
+	
+	text-align: center;
+	width: 1200px;
+	border: 5px solid black;
+	padding: 0px 20px 20px 20px;
+	font-size: 200%;
+  
+}
+
+L{
+	text-align:center
+}
+
+
+c{
+	font-family: 'cup_and_talonregular', Arial, sans-serif;
+	font-weight:normal;
+	font-style:normal;
+}
+
+t{
+	font-family: 'moria_citadelregular', Arial, sans-serif;
+	font-weight:normal;
+	font-style:normal;
+}
+
+h1 {
+	font-size: 60px;
+	text-align: center;
+	margin: 0;
+	padding: 20px 0;
+	color: black;  /* Fuchsia */
+
+}
+
+img {
+	display: block;
+	margin: 0 auto;
+	align: center;
+}
+
+p {
+	color: #F57048;
+}
+Ca {
+	font-family: "CaT";
+	text-align: center;
+}
+
+hed {
+	font-family: Trattatello;
+}
+
+
+table {
+	border: 1px solid black;
+	background-color: #f1f1c1;
+}
+
+/* Defining styling for a specific element type - each question */
+.question {
+  
+  color: black;
+  margin: 20px;
+  padding: 20px;
+  border-radius: 300px;
+  text-align: left;
+}
+
+/* Defining styling for a specific element type - large block buttons */
+.block {
+  display: block;
+  width: 20%;
+  border: none;
+  margin: 0 auto;
+  background-color: #F57048;  /* yellow */
+  padding: 14px 28px;
+  font-size: 16px;
+  cursor: pointer;
+  text-align: center;
+  font-size: 60%;
+}
+
+/* Defining styling for a specific element with an id */
+#signature {
+  text-align: right;
+  color: #F57048;
+  font-style: italic;
+  font-size: 75%;
+}
